@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Benício • 3 Anos de Alegria</title>
+
+    <!-- =========================
+         FONTES
+    ========================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Ícones -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================
+                EFEITOS DE FUNDO
+    =========================================== -->
+
+    <div id="particles"></div>
+
+    <div id="clouds"></div>
+
+    <div id="balloons"></div>
+
+    <canvas id="confettiCanvas"></canvas>
+
+    <!-- ==========================================
+                TELA DE ABERTURA
+    =========================================== -->
+
+    <section id="opening">
+
+        <div class="opening-content">
+
+            <h3>🎉 Feliz Aniversário 🎉</h3>
+
+            <h1>Benício</h1>
+
+            <p class="subtitle">
+
+                Hoje comemoramos três anos de muitas aventuras,
+                sorrisos e momentos inesquecíveis.
+
+                <br><br>
+
+                Espero acompanhar cada etapa da sua vida
+                e que este pequeno site seja uma forma de
+                guardar para sempre algumas das lembranças
+                mais felizes que vivemos juntos.
+
+            </p>
+
+            <button id="enterSite">
+
+                Entrar na Festa 🎈
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                MÚSICA
+    =========================================== -->
+
+    <audio id="music" loop>
+
+        <source src="Audio/parabens.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <button id="musicButton">
+
+        <i class="fa-solid fa-music"></i>
+
+    </button>
+
+    <!-- ==========================================
+                HERO
+    =========================================== -->
+
+    <header id="hero">
+
+        <div class="hero-text">
+
+            <h1>
+                Nosso Pequeno Herói
+            </h1>
+
+            <p>
+
+                Cada sorriso seu ilumina nossas vidas
+                e transforma dias comuns em momentos
+                inesquecíveis.
+
+            </p>
+
+        </div>
+
+    </header>
+
+    <!-- ==========================================
+                LINHA DO TEMPO
+    =========================================== -->
+
+    <section id="timeline">
+
+        <h2>
+
+            Nossa História ❤️
+
+        </h2>
+
+        <div class="timeline">
+
+            <!-- ==========================================
+                        NASCIMENTO
+            =========================================== -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-photo">
+
+                    <img src="Imagens/Nascimento.jpg.jpeg"
+                         alt="Nascimento do Benício">
+
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>👶</span>
+
+                    <h3>31 de Julho de 2023</h3>
+
+                    <p>
+
+                        O dia em que nossas vidas mudaram para sempre.
+
+                        <br><br>
+
+                        A chegada do Benício trouxe alegria,
+                        esperança e muito amor para toda a família.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- ==========================================
+                        PRIMEIROS ANOS
+            =========================================== -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-photo">
+
+                    <img src="Imagens/Nascimento2.jpg.jpeg"
+                         alt="Primeiros dias do Benício">
+
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>🧸</span>
+
+                    <h3>Os Primeiros Passos</h3>
+
+                    <p>
+
+                        Cada sorriso, cada descoberta
+                        e cada abraço fizeram nossos dias
+                        muito mais felizes.
+
+                        <br><br>
+
+                        Você cresceu cercado de amor,
+                        carinho e pessoas que sempre
+                        torcerão pela sua felicidade.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- ==========================================
+                        3 ANOS
+            =========================================== -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-photo">
+
+                    <img src="Imagens/doce.jpg.jpeg"
+                         alt="Benício fez 3 anos">
+
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>🎂</span>
+
+                    <h3>3 Anos</h3>
+
+                    <p>
+
+                        Hoje celebramos um menino alegre,
+                        inteligente, carinhoso e cheio de energia.
+
+                        <br><br>
+
+                        Que Deus continue iluminando seus passos
+                        e realizando todos os seus sonhos.
+                        Você é especial.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                GALERIA
+    =========================================== -->
+
+    <section id="gallery">
+
+        <h2>
+
+            Alguns Momentos Inesquecíveis 📸
+
+        </h2>
+
+        <div class="gallery">
+
+            <!-- ==========================================
+        FOTO 01
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/Amizade.jpg.jpeg" alt="Seu primeiro amigo">
+
+    <h3>Primeiro dia na creche</h3>
+
+    <p>
+       O primeiro dia do Benício na creche,
+       um baita dia pro meu meninão, cheio
+       de aventuras, novas descobertas e
+       felicidades. orgulho do tata.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 02
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/tropinha.jpg.jpeg" alt="Bonde do Benício">
+
+    <h3>Primeira brincadeira do Benício e sua tropinha</h3>
+
+    <p>
+        Primeira brincadeira em grupo
+        do meu anjinho, um momento mais
+        que especial, já que será o primeiro
+        de muitos grupos que ele ira conquistar
+        com seu charme. que você aproveite muito
+        meu amor.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 03
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/artista.jpg.jpeg" alt="Meu Pablo Picasso">
+
+    <h3>Primeira arte criativa do Benício</h3>
+
+    <p>
+        Lindo, maravilhoso, contemporâneo
+        e de muito bom gosto.
+        Puxou o amor e o talento com arte
+        e esportes do irmão.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 04
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/esforco.jpg.jpeg" alt="CLT Júnior">
+
+    <h3>Primeiro "Trabalho" do Benício</h3>
+
+    <p>
+        Primeiro "trabalho" do Benício.
+        Ele deu tudo de si.
+        Suou.
+        Batalhou.
+        Tentou preencher a luva.
+        E conseguiu.
+
+        Além de lindo, gentil
+        e carismático, ele também é CLT,
+        e dos bons.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 05
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/fantasia1.jpg.jpeg" alt="Primeira fantasia">
+
+    <h3>Primeira Fantasia</h3>
+
+    <p>
+        Primeira vez que o Benício
+        se fantasiou, e eu não tenho
+        nem palavras pra descrever o
+        quanto essa fantasia me deixou
+        feliz.
+
+        Ver seu olhar, sua felicidade
+        e timidez pela primeira vez
+        me deixa grato por poder estar
+        vivo e experienciar sua vida.
+
+        Te amo.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 06
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/caipira.jpg.jpeg" alt="Meu caipira">
+
+    <h3>Primeira apresentação na escola</h3>
+
+    <p>
+        A primeira apresentação do meu caipira
+        e a última apresentação que seu irmão
+        foi ver sendo aluno do Vargas.
+
+        Irônico...
+
+        O seu início.
+
+        O meu fim.
+
+        Mas o que realmente importa
+        é podermos viver isso juntos,
+        meu amor.
+    </p>
+
+</div>
+
+<!-- ==========================================
+        FOTO 07
+========================================== -->
+
+<div class="photo-card">
+
+    <img src="Imagens/Sapeca.jpg.jpeg" alt="Serelepe">
+
+    <h3>Minha foto mais recente sua</h3>
+
+    <p>
+        Fomos visitar o quartel,
+        ver o aeroporto
+        e ver a cidade universitária.
+
+        É impressionante como esses passeios,
+        mesmo que simples,
+        são tão alegres do seu lado.
+    </p>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                MENSAGEM DO IRMÃO
+    =========================================== -->
+
+    <section id="message">
+
+        <div class="message-box">
+
+            <h2>💙 Uma mensagem do seu irmão</h2>
+
+            <p>
+
+                "To tentando mudar algo desde os dezesseis
+                e juro que vai valer a pena pra vocês"
+                Isso define o que você significa pra mim meu amor
+                esperança. mesmo em momentos dificeís, sua presença 
+                me alegrava, e me alegra até hoje, espero que esse 
+                meu projeto fique marcado, pois ele é sobre você. 
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                CONTADOR
+    =========================================== -->
+
+    <section id="countdown">
+
+        <h2>🎂 Hoje é o seu dia!</h2>
+
+        <div class="countdown-container">
+
+            <div class="count-item">
+
+                <span id="days">0</span>
+
+                <small>Dias</small>
+
+            </div>
+
+            <div class="count-item">
+
+                <span id="hours">0</span>
+
+                <small>Horas</small>
+
+            </div>
+
+            <div class="count-item">
+
+                <span id="minutes">0</span>
+
+                <small>Minutos</small>
+
+            </div>
+
+            <div class="count-item">
+
+                <span id="seconds">0</span>
+
+                <small>Segundos</small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+                RODAPÉ
+    =========================================== -->
+
+    <footer>
+
+        <h2>❤️ Feliz Aniversário, Benício! ❤️</h2>
+
+        <p>
+
+            Feito com muito amor pelo seu irmão.
+
+        </p>
+
+        <p>
+
+            Que Deus ilumine cada passo da sua vida. Você é luz.
+
+        </p>
+
+    </footer>
+
+    <!-- ==========================================
+                LIGHTBOX
+    =========================================== -->
+
+    <div id="lightbox">
+
+        <span id="closeLightbox">&times;</span>
+
+        <img id="lightboxImage" src="" alt="Imagem ampliada">
+
+        <p id="lightboxCaption"></p>
+
+    </div>
+
+    <!-- ==========================================
+                JAVASCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
